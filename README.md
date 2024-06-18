@@ -11,7 +11,7 @@ Inventory Management System 是一个使用 Go 语言编写的简单清单管理
 ## 安装和运行
 ### 先决条件
 - Go 1.18+
-- MySQL 数据库
+- MySQL
 
 ### 克隆项目
 
