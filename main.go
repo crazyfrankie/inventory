@@ -51,7 +51,6 @@ func main() {
 	<-quit
 	log.Println("Shutting down server...")
 
-	// 创建一个5秒超时的context
 	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
 	defer cancel()
 
