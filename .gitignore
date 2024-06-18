@@ -3,3 +3,6 @@
 
 # 忽略环境配置文件
 config/config.ini
+
+# 忽略 IDE 文件
+.idea/
