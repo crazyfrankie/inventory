@@ -1,6 +1,6 @@
 # Inventory Management System
 ## 简介
-Inventory Management System 是一个使用 Go 语言编写的简单库存管理系统。它提供了基本的库存管理功能，包括添加、更新、删除和查询库存项。
+Inventory Management System 是一个使用 Go 语言编写的简单清单管理系统。它提供了基本的清单管理功能，包括添加、更新、删除和查询库存项。
 
 ## 特性
 - 添加新库存项
