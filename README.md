@@ -37,10 +37,10 @@ port = 8080
 release = false
     
 [database]
-user = debian-sys-main
-password = SFpNZbKpkNOE94AA
-host = localhost
-port = 3306
+user = your_username
+password = your_password
+host = your_localhost
+port = your_port
 name = bubble
 ```
 ### 安装依赖
