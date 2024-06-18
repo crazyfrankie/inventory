@@ -33,9 +33,6 @@ FLUSH PRIVILEGES;
 在 config 文件夹下创建一个 config.ini 文件，并按以下内容进行配置：
 
 ```ini
-port = 8080
-release = false
-    
 [database]
 user = your_username
 password = your_password
