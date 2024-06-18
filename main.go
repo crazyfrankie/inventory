@@ -14,8 +14,17 @@ import (
 )
 
 func main() {
+	// 加载配置文件
+	dbConfig, err := config.LoadConfig("config/config.ini")
+	if err != nil {
+		log.Fatalf("Failed to load config: %v", err)
+	}
+
 	// 初始化数据库
-	config.InitDB()
+	_, err = config.InitDB(dbConfig)
+	if err != nil {
+		log.Fatalf("Failed to initialize database: %v", err)
+	}
 
 	// 自动迁移数据库结构
 	config.InitModel()
