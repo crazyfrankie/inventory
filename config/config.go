@@ -30,11 +30,11 @@ func LoadConfig(file string) (*DatabaseConfig, error) {
 	}
 
 	dbConfig := &DatabaseConfig{
-		User:     cfg.Section("database").Key("user").String(),
-		Password: cfg.Section("database").Key("password").String(),
-		Host:     cfg.Section("database").Key("host").String(),
-		Port:     cfg.Section("database").Key("port").String(),
-		Name:     cfg.Section("database").Key("name").String(),
+		User:     cfg.Section("mysql").Key("user").String(),
+		Password: cfg.Section("mysql").Key("password").String(),
+		Host:     cfg.Section("mysql").Key("host").String(),
+		Port:     cfg.Section("mysql").Key("port").String(),
+		Name:     cfg.Section("mysql").Key("db").String(),
 	}
 
 	return dbConfig, nil
